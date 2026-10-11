@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+
+* {
+    Margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Grechen Fuemen", cursive;
+
+}
+
+body {
+    background-image: url('https://i.pinimg.com/236x/a7/ef/ee/a7efeea020f7682c39f4392df46d623c.jpg?nii=t  ');
+}
+
+
+.container-buttons {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    background-color: #480d0d;
+    border: none;
+    border-radius: 5px;
+    color: #fffffe;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;  
+    width: 110 px;
+}
+
+button:hover {
+    background-color: #6b1d1d;
+}
+
+ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 20px;
+    justify-content: center;
+}
+
+li {
+    border: 2px solid #fffffe;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+p {
+    color: #fffffe;
+}
